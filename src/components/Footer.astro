@@ -1,0 +1,24 @@
+---
+const {
+    class: classProp
+} = Astro.props
+
+//If you want to change the responsive height of footer:
+//tweak the `[--footer-height:${x}]` classes inside of footer component
+---
+
+<footer class:list={[
+    classProp,
+    "[--footer-height:6] h-[calc(var(--block-size)*var(--footer-height))] xs:[--footer-height:5] sm:[--footer-height:4] md:[--footer-height:3] w-full bg-block-bedrock"
+]}>
+    <div class="flex flex-col sm:flex-row items-center justify-between h-full p-5 bg-dark-75 text-white">
+        <header class="flex flex-col gap-3 w-full sm:w-[60%]">
+            <img src="/imgs/project-logo.png" class="h-full max-w-[30ch] m-[-14px]" />
+            <p class="text-sm">CCDA uses <a target="_blank" class="hover:underline" href="https://github.com/BryceRussell/astro-minecraft-theme">Minecraft Theme for Astro.</a></p>
+        </header>
+        <nav class="self-end flex flex-col items-end gap-1 text-link">
+            <a href="https://www.civicraft.net" target="_blank" class="link">CiviCraft</a>
+            <a href="https://github.com/CiviCraft-Development" target="_blank" class="link">GitHub</a>
+        </nav>
+    </div>
+</footer>
