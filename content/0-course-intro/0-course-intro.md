@@ -5,8 +5,21 @@ CiviCraft Developer Academy is a free, open-source platform for learning Java, K
 ## Prerequisites
 No prior knowledge is required! Everything you need will be taught in the course.
 
-## Recommended Reading
+## Learning Structure
+
+### Discussions
+Some lessons will feature public discussions where you can respond to the prompt and your peers. 
+
+### Practice
+Each lesson includes interactive questions to test your understanding of key concepts and reinforce what you’ve learned. These questions are designed to keep you engaged and ensure you’re retaining the information effectively.
+
+### Projects
+Most topics in CCDA feature hands-on projects that give you the opportunity to apply what you’ve learned in a practical way. Project-based learning is central to the experience, helping you build real-world skills and deepen your understanding through practice.
+
+### Recommended Reading
 At the end of most lessons, you'll find recommended reading to deepen your understanding, provide alternative explanations, or explore related topics. Learning from multiple perspectives can enhance your comprehension and make the experience even more engaging.
+### Getting Help
+For real-time assistance, join our [Discord Server](https://discord.gg/), where you can ask questions, share your progress, and connect with a community of learners and mentors.
 
 ## Alternate Courses
 We believe everyone should have access to learning the skills we teach. However, we understand our courses may not suit everyone, so we've provided links to alternative courses. 🎥 indicates a video course while 📖 indicates a written course.
@@ -24,7 +37,3 @@ We believe everyone should have access to learning the skills we teach. However,
 - 🎥 [Develop Minecraft Plugins (Java) by Stephen King](https://www.udemy.com/course/develop-minecraft-plugins-java-programming/?couponCode=ST19MT121224)
   - **$85** but may be on sale or **free** through your work, school, or library
 - 🎥 [Spigot Plugin Development by Kody Simpson](https://youtube.com/playlist?list=PLfu_Bpi_zcDNEKmR82hnbv9UxQ16nUBF7&si=fviQ0KlGfuLUkwbv)
-
-
-## Getting Help
-For real-time assistance, join our [Discord Server](https://discord.gg/), where you can ask questions, share your progress, and connect with a community of learners and mentors.
