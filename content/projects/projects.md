@@ -2,8 +2,21 @@
 
 ## Minecraft
 ### Beginner
+- Warps
+- Social Media List
+- Random Teleport
+- Chat Plugin
+- Plugin Hider
 ### Intermediate
+- Block Regenerator
+- Custom Commands (from config.yml)
+- Player Profiles
+- Essentials Clone
+- Graves
+- ChatAI
+- Report System
 ### Advanced
+- Hide and Seek Minigame
 
 ## General
 ### Beginner
