@@ -21,7 +21,7 @@ for (int i = 1; i <= 10; i++) {
 ```
 In this example, the loop starts with the integer `i` initialized to 1. The loop continues running as long as `i` is less than or equal to 10. The increment `i++` increases the value of `i` by 1 after each iteration. The loop prints numbers from 1 to 10, each on a new line.
 
-## For-Each Loop / Enhanced For Loop
+### For-Each Loop / Enhanced For Loop
 For-each loops, also known as enhanced for loops, are used to iterate over each element in a collection, such as an array or list, and perform an action on or with each element.
 
 ```java
@@ -80,3 +80,22 @@ do {
 ```
 
 In this example, the integer `i` is initialized to 1. The code inside the do block executes first, printing `i` and incrementing it by 1. Then the condition `i < 10` is evaluated. The loop continues as long as the condition remains true. Even if `i` were initially greater than or equal to 10, the code block would still execute once, guaranteeing at least one output. In this case, the output is numbers from 1 to 9, each on a new line.
+
+## When to Use Each Loop
+Choosing the appropriate type of loop depends on the specific scenario and requirements of your code.
+
+- **For Loops**: Use when the number of iterations is known beforehand. They are ideal for iterating over a range of numbers, collections with defined bounds, or cases where the number of repetitions is predictable.
+- **While Loops**: Use when the number of iterations is uncertain, and the loop needs to continue executing as long as a condition evaluates to true. These loops are well-suited for scenarios where the condition depends on dynamic factors or user input.
+- **Do-While Loops**: Use when the loop must execute at least once, regardless of whether the condition is initially true. These loops are particularly useful when the code block should run before the condition is evaluated, such as prompting a user for input and validating it afterward.
+
+
+## Additional Resources
+The following are additional resources that involve loops.
+
+#### Articles
+* [Java Loops by GeeksforGeeks](https://www.geeksforgeeks.org/loops-in-java/)
+#### Videos
+* [Java for Beginners: While, Do While & For Loops by Codecourse](https://www.youtube.com/watch?v=6djggrlkHY8&pp=ygUKamF2YSBsb29wcw%3D%3D)
+* [Java for loop by Bro Code](https://www.youtube.com/watch?v=Rn16ugyorX0&pp=ygUKamF2YSBsb29wcw%3D%3D)
+* [Java while loop by Bro Code](https://www.youtube.com/watch?v=t6gmQaTMTtM&pp=ygUKamF2YSBsb29wcw%3D%3D)
+
