@@ -15,8 +15,11 @@
 - Graves
 - ChatAI
 - Report System
+- Ignore System
 ### Advanced
 - Hide and Seek Minigame
+- Staff/Server Management Plugin
+- 
 
 ## General
 ### Beginner
