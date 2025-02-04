@@ -33,6 +33,15 @@ Save the text document and go to your server folder. Rename the file to `run.bat
 
 > The file extension is `.bat` so if your file is still `.txt` it will not work!
 
+## Step 4: Run `run.bat`
+
+Double-click or right-click and press "Run" to run the batch file. When it runs, it will generate files and folders within the directory, but not start the server itself.
+
+## Step 5: Accept the EULA
+In order to run the server, you must accept the EULA. Open up `eula.txt` and change `eula=false` to `eula=true` and then save `eula.text`.
+
+## Step 6: Run `run.bat`
+Run the batch file a second time. This time, with the EULA accepted, it will start up the server. You can join the server by typing in `localhost` as the server IP.
 
 ## Upgrading and Downgrading the Server
 Upgrading and downgrading your test server is extremely easy once you have one already setup! Visit <a href="https://papermc.io/downloads" target="_blank">PaperMC Downloads</a> and download your preferred build. Once downloaded, navigate to the folder holding your server and delete the current `paper.jar`. Rename the newly downloaded build to `paper.jar` and place it in the server folder. The next time you start, and you’ll be running the new version!
